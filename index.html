@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield - Segurança Cibernética</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Cyber<span>Shield</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Casos</a></li>
+                <li><a href="#contato" class="btn-contato">Contato</a></li>
+            </ul>
+            <div class="menu-mobile">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-text">Proteja seu ambiente digital</h1>
+                <p class="animate-text delay-1">Especialistas em Pentest e Cyber Forensics, garantindo a segurança da sua infraestrutura digital</p>
+                <a href="#contato" class="cta-button animate-text delay-2">Agende uma Análise</a>
+            </div>
+            <div class="hero-image animate-float">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="Segurança Cibernética">
+            </div>
+        </section>
+
+        <section id="servicos" class="services">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Pentest</h3>
+                    <p>Testes de invasão completos para identificar vulnerabilidades em sua infraestrutura</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Cyber Forensics</h3>
+                    <p>Análise forense digital para investigação de incidentes de segurança</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Segurança Ofensiva</h3>
+                    <p>Simulação de ataques para avaliar a resiliência de seus sistemas</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="about-content">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma equipe de especialistas em segurança cibernética, dedicados a proteger sua infraestrutura digital. Com certificações internacionais e anos de experiência, oferecemos soluções robustas para garantir a segurança dos seus dados.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number">500+</span>
+                        <span class="label">Vulnerabilidades Identificadas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">99%</span>
+                        <span class="label">Taxa de Sucesso</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">10+</span>
+                        <span class="label">Certificações</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Casos de Sucesso</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="Caso 1">
+                    <div class="portfolio-overlay">
+                        <h3>Pentest em Banco</h3>
+                        <p>Identificação e correção de vulnerabilidades críticas</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="Caso 2">
+                    <div class="portfolio-overlay">
+                        <h3>Investigação Forense</h3>
+                        <p>Recuperação de dados e análise de incidente</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="Caso 3">
+                    <div class="portfolio-overlay">
+                        <h3>Segurança Ofensiva</h3>
+                        <p>Teste de resiliência em infraestrutura crítica</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Entre em Contato</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nome da Empresa" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Corporativo" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Descreva sua necessidade de segurança" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Solicitar Análise</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>São Paulo, SP - Brasil</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>security@cybershield.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+55 (11) 9999-9999</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Cyber<span>Shield</span></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CyberShield. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html> 
